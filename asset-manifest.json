@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/LeadRate-test/static/css/main.7082f3bb.chunk.css",
+    "main.js": "/LeadRate-test/static/js/main.242b2e73.chunk.js",
+    "main.js.map": "/LeadRate-test/static/js/main.242b2e73.chunk.js.map",
+    "runtime-main.js": "/LeadRate-test/static/js/runtime-main.b12564f9.js",
+    "runtime-main.js.map": "/LeadRate-test/static/js/runtime-main.b12564f9.js.map",
+    "static/js/2.cfad5b9f.chunk.js": "/LeadRate-test/static/js/2.cfad5b9f.chunk.js",
+    "static/js/2.cfad5b9f.chunk.js.map": "/LeadRate-test/static/js/2.cfad5b9f.chunk.js.map",
+    "static/js/3.a504705f.chunk.js": "/LeadRate-test/static/js/3.a504705f.chunk.js",
+    "static/js/3.a504705f.chunk.js.map": "/LeadRate-test/static/js/3.a504705f.chunk.js.map",
+    "index.html": "/LeadRate-test/index.html",
+    "static/css/main.7082f3bb.chunk.css.map": "/LeadRate-test/static/css/main.7082f3bb.chunk.css.map",
+    "static/js/2.cfad5b9f.chunk.js.LICENSE.txt": "/LeadRate-test/static/js/2.cfad5b9f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b12564f9.js",
+    "static/js/2.cfad5b9f.chunk.js",
+    "static/css/main.7082f3bb.chunk.css",
+    "static/js/main.242b2e73.chunk.js"
+  ]
+}
