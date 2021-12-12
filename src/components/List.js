@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import './List.css';
 import {Todo} from './Todo';
-import {TodoApi} from './TodoApi';
+import {TodoApi} from '../lib/TodoApi';
+import {getRandomInt} from '../lib/getRandomInt';
 
 export function List() { 
 const [todos, setTodos] = useState([])
@@ -13,12 +14,6 @@ const [todos, setTodos] = useState([])
         console.log(error);
       })
   }, [setTodos]);
-
-	function getRandomInt(min, max) {
-		min = Math.ceil(min);
-		max = Math.floor(max);
-		return Math.floor(Math.random() * (max - min)) + min;
-	}
 
 	return(
 
