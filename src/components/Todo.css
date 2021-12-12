@@ -1,0 +1,111 @@
+.todo {
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  width: fit-content;
+}
+
+.todo-text {
+  cursor: pointer;
+  padding: 0;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-title:hover {
+  color: #FF8469;
+}
+
+.todo:hover .todo-title {
+  color: #FF8469;
+}
+
+.todo:hover .checked{
+  color: #FFF;
+}
+
+.todo-title {
+  margin: 0;
+  font-family: Montserrat, Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFF;
+}
+
+
+.todo-text:hover .checked {
+  color: #FFF;
+}
+
+.checked {
+  margin: 0;
+  font-family: Montserrat, Helvetica;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4F5565;
+}
+
+.todo-description {
+  margin: 3px 0 0 0;
+  font-family: Montserrat, Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #4F5565;
+}
+
+.crossed-line {
+  color: #4F5565;
+  text-decoration: line-through;
+}
+
+.crossed-line:hover .checked {
+  color: #FFF;
+}
+
+.todo:hover .crossed-line {
+  color: #FFF;
+}
+
+.checkbox {
+  display: flex;
+}
+
+input[type="checkbox"] + span {
+  display: inline-block;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  vertical-align: middle;
+  background: #4F5565;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked + span {
+  background: url(../images/Vector.png) #FF8469 no-repeat center;
+}
+
+.todo:hover input[type="checkbox"] + span {
+  background: rgba(255, 132, 105, 0.2)
+  }
+
+.todo:hover input[type="checkbox"]:hover:checked + span {
+  background: url(../images/Vector.png) #FF8469 no-repeat center; 
+}
+
+.todo:hover input[type="checkbox"]:checked + span {
+  background: url(../images/Vector.png) #FF8469 no-repeat center; 
+}
